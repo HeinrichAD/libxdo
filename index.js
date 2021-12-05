@@ -9,12 +9,11 @@
 // https://stackabuse.com/how-to-create-c-cpp-addons-in-node/
 
 
-const ref       = require('ref');
+const ref       = require('ref-napi');
 //const CString   = ref.types.CString;
-const Struct    = require('ref-struct')
+const Struct    = require('ref-struct-di')(ref);
 //const ArrayType = require('ref-array');
-const ffi       = require('ffi');
-
+const ffi       = require('ffi-napi');
 
 /**
  * @mainpage
