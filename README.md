@@ -3,6 +3,12 @@ Node.js wrapper to use [libxdo/xdotool](https://github.com/jordansissel/xdotool)
 
 fake keyboard/mouse input, window management, and more using X11’s XTEST extension and other Xlib functions
 
+## This project is NOT mantained anymore!
+
+This library is still incomplete. Unfortunaly, I don't have time for this project anymore.
+
+**If someone wants to take over the project, I'm happy to give them the appropriate permissions to the repository.**
+
 
 # Example
 ```node
